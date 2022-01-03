@@ -3,9 +3,28 @@
     <STYLE>
         html *
             {
-            font-size: 1em !important;
             color: rgb(31, 30, 30) !important;
             font-family:  Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif !important;
+            }
+        
+        p *
+            {
+            font-size: 0.75em !important;
+            }
+
+        h1 *
+            {
+            font-size: 1.25em !important;
+            }
+        
+        h2 *
+            {
+            font-size: 1.125em !important;
+            }
+
+        h2 *
+            {
+            font-size: 0.875em !important;
             }
 
         hr {
@@ -16,6 +35,12 @@
             background: black;
             margin-bottom: 2.5px;
             }
+
+        .box {
+            width:50%;
+            overflow: hidden;
+            }
+   
     </STYLE>
 
     <BODY style='background-color: #f0edec;'>
@@ -23,15 +48,22 @@
             <center>
                 <h1>JEREMY KAZIMER</h1>
                 <h2>University at Buffalo</h2>
-                <p>Department of Mathematics</p>
+                <h3>Department of Mathematics</h3>
             </center>
         </DIV>
 
         <HR>
 
-        <DIV id = 'aboutme'>
+        <DIV id = 'aboutme' class = 'box'>
             <h2>About Me:</h2>
-            <small>My name is Jeremy Kazimer.</small>
+            <p>My name is Jeremy Kazimer.  I am currently a graduate student
+                in Applied Mathematics at the University at Buffalo.  My research
+                interests center around network science.  In particular, complex structures
+                and how they apply to real world phenomena, such as political polarization,
+                transporation optimization, and social networks.  My current work involves
+                studying the effects that graph perturbation has on system hierachy, 
+                von Neumann Entropy, and structural complexity.
+            </p>
 
         </DIV>
 
